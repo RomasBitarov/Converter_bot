@@ -8,12 +8,6 @@ import logging
 
 logging.basicConfig(filename='bot.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(module)s - %(message)s', filemode="w", encoding='utf-8')
-#
-# logging.debug("Это сообщение DEBUG")
-# logging.info("Это сообщение INFO")
-# logging.warning("Это сообщение WARNING")
-# logging.error("Это сообщение ERROR")
-# logging.critical("Это сообщение CRITICAL")
 
 bot = telebot.TeleBot(token)
 cash = 0
